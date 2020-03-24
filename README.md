@@ -1,6 +1,6 @@
-# Tribute Page - Nelson Mandela
+### Tribute Page - Nelson Mandela
 
-## This is a project made for the freeCodeCamp course:  Responsive Web Design Projects
+#### This is a project made for the freeCodeCamp course:  Responsive Web Design Projects
 
 Check out the project in the following link: 
 https://mariana-oliveira.github.io/fCC_Tribute-Page/
