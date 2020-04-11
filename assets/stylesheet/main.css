@@ -83,7 +83,7 @@ body{
     color: var(--main-dark-color);
     background-color: var(--main-light-color);
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     padding-top: 60px;;
 }
@@ -359,8 +359,46 @@ header a{
     }
     
     h2{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     
+    #image{
+        max-width: 80%;
+    }
+
+}
+
+
+/* To the timeline be responsive */
+@media screen and (max-width:600px){
+    /* Timeline to the left */
+    .timeline::after{
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .container{
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Arrows pointing to the left */
+    .container::before{
+        left: 60px;
+        border: medium solid var(--main-dark-color);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent var(--main-dark-color) transparent transparent;
+    }
+
+    /* All circles to the left */
+    .left::after, .right::after{
+        left: 15px;
+    }
+
+    /* All right containers behave like the left ones */
+    .right{
+        left: 0%;
+    }
 
 }
