@@ -157,19 +157,15 @@ header a{
     ======================================================
 */
 
-
 .history-div{
-    width: 50%;
-}
-
-#img-div{
-    width: 40%;
+    margin: 30px;
 }
 
 #image{
-    width: 100%;
+    display: block;
+    max-width: 90%;
     height: auto;
-    margin-left: 30px;  
+    margin: 0 auto;  
     border-radius: 10px;
 }
 
@@ -299,13 +295,14 @@ header a{
     ======================================================
 */
 #quotes-section{
-    max-width: 800px;
-    width: 80%;
     margin: 30px;
     padding: 35px 0;
+    text-align: center;
 }
 
 #quotes-section ul{
+    max-width: 1000px;
+    width:80%;
     margin: 0 auto;
 }
 
@@ -314,6 +311,20 @@ header a{
     padding-bottom: 15px;    
 }
 
+#quotes-section p{
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+#quotes-section a{
+    color: var(--main-highlight-color);
+    text-decoration: none;
+}
+
+#quotes-section a:hover{
+    color:var(--second-highlight-color);
+    text-decoration: underline;
+}
 
 
 
@@ -322,16 +333,26 @@ header a{
     Responsive
     ======================================================
 */
-@media screen and (min-width:800px){
+@media screen and (min-width:1200px){
     #biography-section{
         display: flex;
         margin: 0 35px;
         padding-top: 80px;
     }
 
+    .history-div{
+        width: 50%;
+        margin-right: 20px;
+    }
+    
+    #img-div{
+        margin: 20px;
+        width: 50%;
+    }
+
 }
 
-@media screen and (max-width:799px){
+@media screen and (max-width:800px){
     h1{
         font-size: 5rem;
         text-align: left;
