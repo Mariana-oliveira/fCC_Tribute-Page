@@ -1,50 +1,222 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="assets/stylesheets/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Bellota:300,300i,400,400i,700,700i&display=swap" rel="stylesheet"> 
-        <title>Nelson Mandela Tribute</title>
-    </head>
-    
-    <body>
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            
+            <link rel="stylesheet" href="assets/stylesheet/main.css">
+            <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Nanum+Gothic&display=swap" rel="stylesheet"> 
 
-        <main id="main">
+            <title>Nelson Mandela Tribute</title>
+        </head>
+        
+        <body>
+            
             <header>
-                <h1 id="title">Nelson Mandela</h1>
 
-                <nav class="nav">
+                <nav class="nav clearfix" aria-label="main menu">
                     <ul>
-                        <li><a href="#Bio">Biography</a></li>
-                        <li><a href="#Quot">Famous Quotations</a></li>
+                        <li><a href="#biography-section">Biography</a></li><!--                            
+                        --><li><a href="#timeline-section">Timeline</a></li><!--                            
+                        --><li><a href="#quotes-section">Famous Quotes</a></li>
                     </ul>
                 </nav>
 
+                <h1 id="title">Nelson Mandela</h1>
+
             </header>
             
+            <main id="main">
             <!-- Main section-->
             <section >
+                <section id="biography-section">
+                    <!-- History of Nelson Mandela -->
+                    <div class="history-div">
+                        <h2>History of Nelson Mandela</h2>
+                        <p id="tribute-info">
+                            Nelson Mandela was a South African anti-apartheid revolutionary, political leader, and philanthropist who served as President of South Africa from 1994 to 1999. 
+                            He was the country's first black head of state and the first elected in a fully representative democratic election. 
+                            His government focused on dismantling the legacy of apartheid by tackling institutionalized racism and fostering racial reconciliation. 
+                            Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997. 
+                        </p>
+                    </div>
+                    
+                    <!-- Picture of Nelson Mandela-->
+                    <div id="img-div">
+                        <figure>
+                            <img id="image" src="https://static01.nyt.com/images/2018/07/08/sunday-review/08Mandela-Images-slide-3GG5/08Mandela-Images-slide-3GG5-superJumbo-v2.jpg" alt="Picture of Nelson Mandela" >
+                            <!-- <img id="image" src="https://i1.wp.com/coworkingoffices.com.br/wp-content/uploads/mandela.jpg?fit=650%2C330&ssl=1&resize=1200%2C900" alt="Picture of Nelson Mandela" > -->
+                            <figcaption id="img-caption">Nelson Mandela - o mais importante líder da Africa Negra</figcaption>
+                        </figure>
+                        
+                            
+                    </div>
 
-                <!-- Picture of Nelson Mandela-->
-                <div id="img-div">
-                   
-                    <img id="image" src="https://conteudo.imguol.com.br/blogs/150/files/2018/07/Nelson_Mandela-1-e1531756738150.jpg" >
-    
-                </div>
-
+                </section>
+                
                 <!-- His Bio -->
 
-                <section id="Bio">
+                <section id="timeline-section">
 
-                    <h3>Here is a time line of Nelson Mandela's life:</h3>
+                    <h2>Timeline of Nelson Mandela's life:</h2>
+
+                    <div class="timeline">
+                        <div class="container left">
+                            <div class="content">
+                                <h4>18 July 1918</h4>
+                                <p>Born in the Transkei, South Africa</p>
+                            </div>
+                        </div>
+
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1925</h4>
+                                <p>Enters primary school</p>
+                            </div>
+                        </div>
+
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1937</h4>
+                                <p>Aged 18, starts college</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1939</h4>
+                                <p>Enters university</p>
+                            </div>
+                        </div>
+
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1940</h4>
+                                <p>Expelled from Fort Hare University for activism</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1942</h4>
+                                <p>Begins to attend African National Congress (ANC) meetings informally</p>
+                            </div>
+                        </div>
+
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1944</h4>
+                                <p>Co-founds ANC Youth League. Marries Evelyn Ntoko Mase</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1948</h4>
+                                <p>Elected national secretary of ANC Youth League, later to president</p>
+                            </div>
+                        </div>
+
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1952</h4>
+                                <p>Campaign of civil disobedience. Opens South Africa's first black law practice with Oliver Tambo</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1956</h4>
+                                <p>One of 156 charged with high treason</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1958</h4>
+                                <p>Marries Winnie Madikizela</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1961</h4>
+                                <p>Goes underground to form armed wing</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1964</h4>
+                                <p>Sentenced to life imprisonment for sabotage and high treason. Send to the maximum-security jail on Robben Island</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1982</h4>
+                                <p>Leaves Robben Island for Pollsmoor Prison</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1990</h4>
+                                <p>Released</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1993</h4>
+                                <p>Wins the Nobel Peace Prize with F. W. de Klerk, the last apartheid president</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1994</h4>
+                                <p>Electred president after the ANC wins South Africa's first multi-racial elections</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>1998</h4>
+                                <p>Marries Graça Machel</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container left">
+                            <div class="content">
+                                <h4>1999</h4>
+                                <p>Steps down after one term as president</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container right">
+                            <div class="content">
+                                <h4>2004</h4>
+                                <p>Withdraws from public life</p>
+                            </div>
+                        </div>
+                        
+                        <div class="container left">
+                            <div class="content">
+                                <h4>5 December 2016</h4>
+                                <p>Dies aged 95</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
 
                 </section>
 
                 <!-- His most famous Quotations -->
 
-                <section id="Quot">
+                <section id="quotes-section">
 
-                    <h3>Nelson Mandela's most famous quotations:</h3>
+                    <h2>Nelson Mandela's most famous quotations:</h2>
 
                     <ul>
                         <li><q>Everyone can rise above their circumstances and achieve success if they are dedicated to and passionate about what they do.</q></li>
@@ -52,13 +224,18 @@
                         <li><q>Do not judge me by my successes, judge me by how many times I fell down and got back up again.</q></li>
                         <li><q>If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.</q></li>
                         <li><q>As we are liberated from our own fear, our presence automatically liberates others.</q></li>
+                        <li><q>Man’s goodness is a flame that can be hidden but never extinguished.</q></li>
+                        <li><q>When people are determined they can overcome anything.</q></li>
+                        <li><q>I never lose. I either win or learn.</q></li>
+                        <li><q>Your playing small does not serve the world. Who are you not to be great?</q></li>
+                        <li><q>You can start changing our world for the better daily, no matter how small the action.</q></li>
                     </ul>
+
+                    </section>
 
                 </section>
 
-            </section>
-
-        </main>
+            </main>
 
     </body>
 </html>
