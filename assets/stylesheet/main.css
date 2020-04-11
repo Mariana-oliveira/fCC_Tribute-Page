@@ -170,7 +170,7 @@ header a{
 }
 
 #img-caption{
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -364,6 +364,10 @@ header a{
     
     #image{
         max-width: 80%;
+    }
+
+    #quotes-section{
+        text-align: left;
     }
 
 }
